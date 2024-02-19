@@ -1,0 +1,10 @@
+student_name <- c("harika", "poojitha", "siri")
+age <- c(18, 19, 20)
+weight <- c(50, 30, 45)
+height <- c(100, 150, 250)
+gender <- c("Male", "Female", "Male")
+
+data <- data.frame(student_name, age, weight, height, gender)
+Working <- c("Yes", "No", "No")
+df <- cbind(data, Working = Working)
+print(df)
